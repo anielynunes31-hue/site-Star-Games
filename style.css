@@ -66,4 +66,9 @@ a{
     background-color: #FF8C52;
     width: 100%;
 }
-
+.rodape-contato{
+    position: absolute;
+    bottom: 0;
+    background-color: #FF8C52;
+    width: 100%;
+}
