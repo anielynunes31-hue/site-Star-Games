@@ -8,18 +8,18 @@ a{
 }
 .cabecalho{
     background-color: #FF8C52 !important;
+    
 }
 
-.imagem-switch{
+.imagem-produto{
     height: 350px;
     width: 350px;
-   animation: fadeIn 2s ease-in forwards;
 }
-
-.anuncio-switch{
-    display: flex;
+.animacao{
     animation: fadeIn 2s ease-in forwards;
 }
+
+
 .titulo-produto{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: x-large ;
@@ -29,16 +29,6 @@ a{
     display: flex;
     flex-direction: column;
     
-}
-
-.anuncio-PS5{
-    display: flex;
-    justify-content: end;
-    animation: fadeIn 3s ease-in forwards;
-}
-.anuncio-Xbox{
-    display: flex;
-     animation: fadeIn 4s ease-in forwards;
 }
 .texto-sobre{
     padding:25vh;
@@ -71,4 +61,7 @@ a{
     bottom: 0;
     background-color: #FF8C52;
     width: 100%;
+}
+.flex-end{
+    justify-content: end;
 }
