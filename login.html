@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
-    <html>
-         <link rel="icon" type="image/x-icon" href="/imagens/favicon.ico">
+<html>
+<link rel="icon" type="image/x-icon" href="/imagens/favicon.ico">
 
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <title></title>
-    </html>
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<title></title>
+
+</html>
+
 <body>
     <header class="cabecalho">
 
@@ -38,16 +40,18 @@
                                 Produtos
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="/produtos/nintendo/nintendo.html">Nintendo Switch</a></li>
+                                <li><a class="dropdown-item" href="/produtos/nintendo/nintendo.html">Nintendo Switch</a>
+                                </li>
                                 <li><a class="dropdown-item" href="/produtos/ps5.html">PS5</a></li>
                                 <li><a class="dropdown-item" href="/produtos/xbox.html">Xbox Series </a></li>
                             </ul>
                         </li>
 
                         <a href="login.html" style="align-self:center;">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
-  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
-</svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                class="bi bi-person-fill" viewBox="0 0 16 16">
+                                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                            </svg>
                         </a>
 
                     </ul>
@@ -55,23 +59,38 @@
             </div>
         </nav>
     </header>
-    <h2>Submit Button</h2>
 
-    <div class="card" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    <p class="card-text"><form action="/action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" placeholder="Coloque seu nome"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Doe"><br><br>
-  <input type="submit" value="Submit">
-</form> </p>
-    <a href="#" class="card-link">Card link</a>nt
-    <a href="#" class="card-link">Another link</a>
-  </div>
-    </div>
+    <main class=" d-flex" style="justify-content:center; align-items: center;height:100vh;">
+
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Login</h5>
+                <h6 class="card-subtitle mb-2 text-muted"></h6>
+                <p class="card-text">
+                <form action="/action_page.php">
+                    <label for="fname">E-mail:</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="Coloque seu E-mail"><br>
+                    <label for="lname">Senha:</label><br>
+                    <input type="password" id="lname" name="lname" value="Doe"><br><br>
+                    <input onclick="login()" type="submit" value="Entrar">
+                    <input type="submit" value="Cadastra-se">
+
+                </form>
+                </p>
+                <a href="#" class="card-link">esqueci minha senha </a>
+                <a href="#" class="card-link"></a>
+            </div>
+        </div>
+    </main>
+    <footer ondblclick="login()" class="rodape-contato">
+        <strong>Aniely-2026</strong>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+     <script src="script.js"></script>
 
 </body>
+
 </html>
